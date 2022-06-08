@@ -1,0 +1,16 @@
+@charset "UFT-8";
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.space {
+    display: block;
+    width: 40%;
+}
+
+.astro{
+    margin: -1000px 0px 0px 0px;
+    padding-left: 600px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de tags</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            border: 0ch;
+        }
+        body{
+            background-color: darkcyan;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0%;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        nav{
+            padding: 5px;
+            background-color: rgb(252, 216, 172);
+            text-align: center;
+            box-shadow: 0px 2px 2px rgb(0 0 0 / 15%);
+        }
+
+        nav > a{
+            color: rgb(0, 0, 0);
+            margin-right: 20px;
+            text-decoration: none;
+        }
+
+        nav > a:hover{
+            color: rgb(99, 99, 99);
+            text-decoration: underline;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 20px;
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            font-weight: 700;
+            padding: 10px;
+        }
+
+        footer > p{
+            margin: 0%;
+        }
+
+        article{
+            background-color: rgb(221, 236, 250);
+            padding: 20px;
+            box-shadow: 0px 2px 2px rgb(0 0 0 / 15%);
+            border-radius: 6px;    
+        }
+
+        article > aside{
+            background-color: rgb(164, 194, 219);
+            text-align: center;
+            font-weight: 600;
+            width: 250px;
+            padding: 8px;
+            box-shadow: 0px 2px 2px rgb(0 0 0 / 15%);
+            border-radius: 3px;   
+        }
+
+        article > aside > p{
+            margin: 0%;
+        }
+
+
+
+
+    </style>
+</head>
+<body> 
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Assuntos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dolorem esse? Ipsum dolor, tempore accusamus eveniet dignissimos ullam exercitationem, hic culpa eaque nisi illum quam incidunt totam debitis! Iusto, quaerat.</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre Basquete</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa sint quibusdam quo odio suscipit rem, delectus eum, error, reiciendis cum omnis repellat! Cum asperiores dolore, itaque ducimus aut id nostrum.</p>
+                <aside>
+                    <p>Escrito por João Vitor Ribeiro</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        Desenvolvido por Eu mesmo
+    </footer>
+</body>
+</html>
