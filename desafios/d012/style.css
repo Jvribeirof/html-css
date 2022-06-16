@@ -1,9 +1,10 @@
 @charset "URT-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 html, body{
@@ -22,12 +23,12 @@ header{
         font-size: 2.5em;
     }
 
-    header > a{
+    header > p > a{
         color: aliceblue;
         text-decoration: none;
     }
 
-        header > a:hover{
+        header > p > a:hover{
             color: rgb(215, 222, 228);
             text-decoration: underline;
         }
@@ -40,6 +41,8 @@ footer{
 }
 
 section{
+    font-family: 'Passion One', cursive;
+    font-size: 3.5vw;
     padding: 10vh 0px 10vh 30px;
     line-height: 2em;
 }
@@ -51,7 +54,8 @@ section{
 
         section.ft_fundo > P{
             background-color: rgba(0, 0, 0, 0.5);
-            width: 400px;
+            display: inline-block;
+            padding: 5px 5vw 5px 0px;
         }
 
         #ft1{
