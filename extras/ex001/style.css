@@ -1,0 +1,105 @@
+@charset "UTF-8";
+*{
+    margin: 0%;
+    font-family:'Noto Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda > h1{
+    color: #77ffc0;
+    font-size: 3vw;
+}
+
+.img{
+    width: 35vw;
+    max-height: 45vh;
+}
+
+.direita{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.349);
+}
+
+    .card-login > h1{
+        color: #00ff88;
+        font-weight: 800;
+        margin: 10px
+    }
+
+.text-field{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+    .text-field > input{
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        background-color: #514869;
+        color: #f0ffffde;
+        font-size: 12px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.349);
+        outline: none;
+        box-sizing: border-box;
+        margin: 10px 0px;
+    }
+
+    .text-field > input::placeholder{
+        color: #b2c2c2de;
+    }
+
+    .text-field > label{
+        color: white;
+        margin-bottom: 10ppx;
+    }
+
+    .login-btn{
+        width: 100%;
+        border: none;
+        border-radius: 8px;
+        padding: 16px;
+        margin-top: 25px;
+        outline: none;
+        background-color: #00ff88;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 3px;
+    }  
