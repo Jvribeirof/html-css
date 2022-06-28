@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #content{
+            background-color: rgb(233, 221, 195);
+            height: 70vh;
+            max-width: 800px;
+            padding: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .item{
+            height: 100px;
+            width: 100px;
+            color: black;
+            background-color: white;
+            box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.25);
+        }
+
+        .item:nth-child(1){
+            order: 5;
+        }
+        .item:nth-child(2){
+            order: 4;
+        }
+        .item:nth-child(3){
+            order: 2;
+        }
+        .item:nth-child(4){
+            order: 3;
+        }
+        .item:nth-child(5){
+            order: 1;
+        }
+
+    </style>
+    <title>Flexbox</title>
+</head>
+<body>
+    <section id="content">
+        <div class="item">01</div>
+        <div class="item">02</div>
+        <div class="item">03</div>
+        <div class="item">04</div>
+        <div class="item">05</div>
+    </section>
+</body>
+</html>
