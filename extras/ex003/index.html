@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        section{
+            background-color: blanchedalmond;
+            height: 44vh;
+            margin-bottom: 2vh;
+            padding: 20px;
+        }
+
+        div.d-inline{
+            display: inline;
+            background-color: brown;
+            color: white;
+            height: 200px; /*Não Funciona*/
+            width: 200px; /*Não Funciona*/
+        }
+
+        div.d-block{
+            display: block;
+            background-color: brown;
+            color: white;
+            margin: 10px;
+            height: 60px; /*Funciona*/
+            width: 60px; /*Funciona*/
+        }
+
+        div.d-in-block{
+            display: inline-block;
+            background-color: brown;
+            color: white;
+            margin: 10px;
+            height: 60px; /*Funciona*/
+            width: 60px; /*Funciona*/
+        }
+
+        div.d-none{
+            display: none;
+            background-color: brown;
+            color: white;
+            margin: 10px;
+            height: 60px; /*Funciona*/
+            width: 60px; /*Funciona*/
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Display Inline</h1>
+        <div class="d-inline">01</div>
+        <div class="d-inline">02</div>
+        <div class="d-inline">03</div>
+    </section>
+
+    <section>
+        <h1>Display Box</h1>
+        <div class="d-block">01</div>
+        <div class="d-block">02</div>
+        <div class="d-block">03</div>
+    </section>
+
+    <section>
+        <h1>Display Inline-Box</h1>
+        <div class="d-in-block">01</div>
+        <div class="d-in-block">02</div>
+        <div class="d-in-block">03</div>
+    </section>
+
+    <section>
+        <h1>Display None</h1>
+        <div class="d-none">01</div>
+        <div class="d-none">02</div>
+        <div class="d-none">03</div>
+    </section>
+    
+</body>
+</html>
