@@ -16,8 +16,10 @@ body{
     justify-content: space-between;
     align-items: center;
 
+    max-width: 1400px;
+    margin: auto;
     height: 100px;
-    padding: 48px;
+    padding: 48px 0px;
 }
 
 .nav-logo h1{
@@ -52,4 +54,107 @@ body{
 #btn:hover{
     border-top: none;
     background-color: #ff2978;
+}
+
+header{
+    height: 700px;
+}
+
+#content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    max-width: 1400px;
+    height: 100%;
+    margin: auto;
+}
+
+#headline{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#headline h2{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 12px;
+    color: #180f4a;
+    margin-bottom: 0px;
+}
+#headline h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: #180f4a;
+    margin:0px;
+}
+
+a button{
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: #ff2978;
+    font-size: 1.1em;
+    color: aliceblue;
+    border: none;
+}
+
+a button:hover{
+    transition: .2s;
+    background-color: #180f4a;
+}
+
+section{
+    margin: 130px auto;
+    max-width: 1400px;
+}
+
+section h2{
+    font-family: 'Lobster', 'cursive';
+    font-size: 48px;
+    color: #180f4a;
+}
+
+#card-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    width: 100%;
+    border: 1px solid #180f4a;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 32px;
+    height: 350px;
+    width: 30%;
+    border: 1px solid #180f4a;
+
+    text-align: center;
+}
+
+.card h3{
+    font-size: 24px;
+}
+
+.card:hover{
+    background-color: #ff2978;
+    color: aliceblue;
+}
+
+.card:hover .main-card{
+    display: none;
+}
+
+.card:hover .oculto{
+    display: block;
+}
+
+.oculto{
+    display: none;
 }
