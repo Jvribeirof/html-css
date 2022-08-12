@@ -10,6 +10,7 @@
     height: 100vh;
     background-color: #3737ff;
     background-repeat: no-repeat;
+    background-size: contain;
  }
 
  h1{
@@ -17,3 +18,18 @@
     text-shadow: 2px 2px 0px #3a3a90;
     padding: 10px;
  }
+ 
+/*DECLARAÇÕES DE RETRATO*/
+@media screen and (orientation: portrait) {
+   body{
+      text-align: center;
+      background-image: url(../../imagens/imagens/cev-portrait.jpg);
+  }
+}
+/*DECLARAÇÕES DE PAISAGEM*/
+@media screen and (orientation: landscape) {
+   body{
+      background-image: url(../../imagens/imagens/cev-landscape.jpg);
+      background-position: center bottom;
+  }
+}
