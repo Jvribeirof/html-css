@@ -122,7 +122,6 @@ section h2{
     justify-content: space-between;
 
     width: 100%;
-    border: 1px solid #180f4a;
 }
 
 .card{
@@ -157,4 +156,19 @@ section h2{
 
 .oculto{
     display: none;
+}
+.test {
+    background-color: yellow;
+}
+.anime{
+    animation: fade 1.65s forwards;
+}
+@keyframes fade {
+    0%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }

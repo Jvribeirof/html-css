@@ -76,5 +76,17 @@
             </div>
         </div>
     </section>
+    <script src="jquery-3.6.0.js"></script>
+    <script>
+        let x
+        $(document).ready(function(){
+            $(document).scroll(function(){
+                console.log(x++)
+            })
+            if($(document).scroll() > 60){
+                $('#card-section').addClass('test')
+            }
+        })
+    </script>
 </body>
 </html>
